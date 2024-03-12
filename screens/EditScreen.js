@@ -10,6 +10,7 @@ export default function EditScreen({ route }) {
   return (
     <BlogPostForm
       initialValues={{ title: blogPost.title, content: blogPost.content }}
+      isEdit={true}
     />
   );
 }

@@ -12,6 +12,7 @@ export default function CreateScreen({ navigation }) {
           navigation.navigate("Index");
         });
       }}
+      isEdit={false}
     />
   );
 }
