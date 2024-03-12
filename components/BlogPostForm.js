@@ -7,7 +7,7 @@ import {
 } from "react-native";
 import React, { useState } from "react";
 
-export default function BlogPostForm({ onSubmit, initialValues }) {
+export default function BlogPostForm({ onSubmit, initialValues, isEdit }) {
   const [title, setTitle] = useState(initialValues ? initialValues.title : "");
   const [content, setContent] = useState(
     initialValues ? initialValues.content : ""
@@ -37,7 +37,7 @@ export default function BlogPostForm({ onSubmit, initialValues }) {
         }}
         style={styles.button}
       >
-        <Text>Kaydet</Text>
+        {isEdit ? <Text>Güncelle</Text> : <Text>Kaydet</Text>}
       </TouchableOpacity>
     </View>
   );
