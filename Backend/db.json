@@ -1,19 +1,34 @@
 {
-  "posts": [
+  "blogposts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "React js",
+      "content": "React is a JavaScript library for building user interfaces",
+      "id": 1
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "Angular js",
+      "content": "AngularJS is a structural framework for dynamic web apps",
+      "id": 2
+    },
+    {
+      "title": "Vue js",
+      "content": "Vue.js is a library for building interactive web interfaces",
+      "id": 3
+    },
+    {
+      "title": "Ember js",
+      "content": "Ember.js is a JavaScript framework for building web applications",
+      "id": 4
+    },
+    {
+      "title": "Backbone js",
+      "content": "Backbone.js gives structure to web applications by providing models with key-value binding and custom events",
+      "id": 5
+    },
+    {
+      "title": "Uğur",
+      "content": "Akçoraa",
+      "id": 6
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
